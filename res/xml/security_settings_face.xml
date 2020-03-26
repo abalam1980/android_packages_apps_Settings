@@ -54,8 +54,14 @@
 
     <PreferenceCategory
         android:key="security_settings_face_manage_category"
+<<<<<<< HEAD
         android:title="@string/security_settings_face_settings_require_category">
         <com.havoc.support.preferences.SwitchPreference
+=======
+        android:title="@string/security_settings_face_settings_require_category"
+        app:controller="com.android.settings.biometrics.face.FaceSettingsManagePreferenceController">
+        <SwitchPreference
+>>>>>>> 2cb1d5e9e0... Port face unlock feature
             android:key="security_settings_face_require_attention"
             android:title="@string/security_settings_face_settings_require_attention"
             android:summary="@string/security_settings_face_settings_require_attention_details"
